@@ -1,0 +1,36 @@
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px; */
+}
+.profile {
+    width: 50%;
+}
+
+.about-details {
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+}
+
+#svg{
+    width: 80%;
+}
+
+@media (max-width: 990px) {
+    .cont{
+        flex-direction: column;
+    }
+    .profile{
+        width: 80%;
+    }
+    #svg{
+        width: 100%;
+    }
+    .about-details{
+        width: 90%;
+        text-align: center;
+        margin: 0;
+    }
+}
